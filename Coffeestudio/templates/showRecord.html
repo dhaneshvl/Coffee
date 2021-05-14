@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <table border="2" align="center">
+            <th>Name</th>
+            <th>Password</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Phone</th>
+            {% for i in result %}
+            <tr>
+               
+                <td>{{i.Name}}</td>
+                <td>{{i.Password}}</td>
+                <td>{{i.Age}}</td>
+                <td>{{i.Address}}</td>
+                <td>{{i.Phone}}</td>
+                
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

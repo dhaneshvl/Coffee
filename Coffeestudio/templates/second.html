@@ -1,0 +1,31 @@
+{% load static %}
+
+<html>
+    <head>
+        <link href="{% static 'styles.css' %}" rel="stylesheet" />
+        <script>
+
+        function show()
+        {
+            alert("your request has been accepted,kindly please visit our store");
+        }
+
+        </script>
+    </head>
+    <body>
+        <h1>Coffee Studio</h1>
+        <p>Snacks Corner</p>
+        <p>We serve delicious and healthy snacks</p>
+        <a href="third">click here for cold beverages</a>
+        <p> Snacks:</p>
+        <li>Burger</li>
+        <li>Puffs</li>
+        <li>Shawarma</li>
+        <li>French fries</li>
+        <li>Potato wedges</li>
+        <li>Veg sandwich</li>
+        <li>Veg pizza</li>
+
+        <input type="button" value="click here to claim your first coffee for free" onclick="show()" />
+    </body>
+</html>
